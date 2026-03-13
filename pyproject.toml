@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neural-network-from-scratch"
+version = "1.0.0"
+description = "A fully-connected neural network implementation from scratch with numpy, featuring autoencoders and classifiers"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Faye Orcales", email = "faye.orcales@ucsf.edu"}
+]
+requires-python = ">=3.8"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics"
+]
+dependencies = [
+    "numpy>=1.23",
+    "scikit-learn>=1.2"
+    "pytest"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0"
+]
+notebooks = [
+    "matplotlib>=3.6",
+    "ipykernel>=6.0"
+]
+
+[tool.setuptools]
+packages = ["nn"]
+
+[project.urls]
+Repository = "https://github.com/ofaye98/final-nn/tree/for-submission"
