@@ -327,6 +327,6 @@ def test_one_hot_encode_seqs():
     # all values should be 0 or 1 (valid one-hot encoding)
     assert np.all((encodings == 0) | (encodings == 1)), "Encodings should only contain 0 or 1"
     
-    # each position should sum to 1 (valid one-hot)
+    # each encoding should have exactly L ones, where L is the sequence length (one per nucleotide)
     row_sums = encodings.sum(axis=1)
-    assert np.all(row_sums == 8), "Each encoding should have exactly 8 ones (4 bases * 2 length)"
+    assert np.all(row_sums == 2), "Each encoding should have exactly 2 ones (1 per base in 2-length sequence)"
