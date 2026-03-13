@@ -1,9 +1,4 @@
 import numpy as np
-import sys
-import os
-
-# Add parent directory to path for imports
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 
 from nn.nn import NeuralNetwork
 from nn.preprocess import sample_seqs, one_hot_encode_seqs
