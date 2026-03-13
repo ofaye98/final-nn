@@ -1,4 +1,28 @@
+* [![tests](https://github.com/ofaye98/final-nn/actions/workflows/tests.yml/badge.svg)](https://github.com/ofaye98/final-nn/actions/workflows/tests.yml)
 # Final project: neural network
+
+## Methods
+For neural network class
+These two websites were EXTREMELY helpful for almost every method 
+- https://jmyao17.github.io/Machine_Learning/Neural_Network/NN_From_Scratch_1.html 
+- https://medium.com/data-science/lets-code-a-neural-network-in-plain-numpy-ae7e74410795 
+
+Both provided calculations for sigmoid, relu (forward and back), single layer forward and back propagation, full forward and back prop.
+
+- https://agustinus.kristia.de/blog/nn-sgd/ this website was very helpful for the fit method and how to train by backpropagation
+
+- https://quantdare.com/create-your-own-deep-learning-framework-using-numpy/ helpful for the predict method
+
+Referred to neural network class for unit testing manual calculation. Used chatgpt for unit testing suggestions, used claude for debugging.
+
+See below for info on jupyter notebooks
+
+## Notebooks
+I created two example Jupyter Notebooks that implement the final steps of this assignment:
+
+- notebooks/autoencoder.ipynb — trains a 64x16x64 autoencoder on the sklearn digits dataset.
+- notebooks/classifier.ipynb — preprocesses Rap1 data, balances classes, one-hot encodes sequences, trains a classifier, and reports validation accuracy.
+
 
 ## Overview
 
