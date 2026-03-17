@@ -13,7 +13,7 @@ Both provided calculations for sigmoid, relu (forward and back), single layer fo
 
 - https://quantdare.com/create-your-own-deep-learning-framework-using-numpy/ helpful for the predict method
 
-Referred to neural network class for unit testing manual calculation. Used chatgpt for unit testing suggestions, used claude for debugging.
+Referred to neural network class for unit testing manual calculation. Used chatgpt for unit testing suggestions, also used VS code for overall suggestions and for debugging.
 
 See below for info on jupyter notebooks
 
